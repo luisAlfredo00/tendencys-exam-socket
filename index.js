@@ -38,6 +38,7 @@ io.on('connection', (socket) => {
         guides = guides + guid;
         io.emit('newGuide', guides);
         
+        
     });
 });
 
